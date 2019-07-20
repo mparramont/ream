@@ -1,11 +1,11 @@
 # Define a command that signs up a user.
 class ProcessItem < Mutations::Command
   required do
-    duck :item
+    duck :data
   end
 
   def execute
-    binding.pry
+    item = Item.create!(data: data.stringify_keys)
     item
   end
 end
