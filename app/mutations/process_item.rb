@@ -7,7 +7,7 @@ class ProcessItem < Mutations::Command
       if value =~ /^http/
         FetchFeaturesFromPictureUrl.run!(url: value)
       elsif value =~ /.{10,}/
-        # GetKeywordsFromText.run!(value)
+        FetchKeywordsFromText.run!(text: value)
       end
     end
   end
