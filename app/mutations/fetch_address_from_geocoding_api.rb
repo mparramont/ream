@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ExtractAddressFromGeocodingAPI < Mutations::Command
+class FetchAddressFromGeocodingAPI < Mutations::Command
   ADDRESS_FIELD_MAPPINGS = {
     'street_number' => :street_number,
     'route' => :stret_name,
@@ -16,6 +16,8 @@ class ExtractAddressFromGeocodingAPI < Mutations::Command
   required { duck :geocoded_result }
 
   def execute
+    return {} if geocoded_result.blank?
+
     {
       address: {
         address_fields: address_fields,
