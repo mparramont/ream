@@ -1,15 +1,18 @@
 # Define a command that signs up a user.
 class ProcessItem < Mutations::Command
-  required { duck :data }
+  required { duck :input_data }
 
   def execute
-    process_hash(data) do |value|
-      if value =~ /^http/
-        FetchFeaturesFromPictureUrl.run!(url: value)
-      elsif value =~ /.{10,}/
-        FetchKeywordsFromText.run!(text: value)
+    output_data =
+      process_hash(input_data) do |value|
+        if value =~ /^http/
+          FetchFeaturesFromPictureUrl.run!(url: value)
+        elsif value =~ /.{10,}/
+          FetchKeywordsFromText.run!(text: value)
+        end
       end
-    end
+
+    Item.create!(input_data: input_data, output_data: output_data)
   end
 
   def process_hash(hash, &block)

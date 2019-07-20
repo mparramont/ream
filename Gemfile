@@ -16,6 +16,8 @@ gem 'aws-sdk'
 gem 'awesome_print'
 gem "font-awesome-rails"
 gem "ibm_watson"
+gem 'webpacker'
+gem 'react-rails'
 group :development, :test do
   gem 'pry-byebug' # debugger
   gem 'rspec-rails', '~> 3.8'
