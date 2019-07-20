@@ -4,7 +4,7 @@ require('ibm_watson/natural_language_understanding_v1')
 require('json')
 include IBMWatson
 
-class GetKeywordsFromText < Mutations::Command
+class FetchKeywordsFromText < Mutations::Command
   required { string :text }
 
   def execute
@@ -13,12 +13,17 @@ class GetKeywordsFromText < Mutations::Command
 
   private
 
-  def result
-    response.result
+  def response
+    @response ||=
+      begin
+        ibm_watson_client.analyze(text: text, features: { keywords: {} })
+      rescue StandardError
+        nil
+      end
   end
 
-  def response
-    ibm_watson_client.analyze(text: text, features: { keywords: {} })
+  def result
+    @result ||= response&.result
   end
 
   def ibm_watson_client

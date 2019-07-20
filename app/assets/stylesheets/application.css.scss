@@ -14,6 +14,14 @@
  *= require_tree .
  *= require_self
  */
+@import 'landing/landing-page.scss';
+@import 'simple-line-icons/css/simple-line-icons.css';
 
- @import 'landing/landing-page.scss';
- @import 'simple-line-icons/css/simple-line-icons.css';
+.item {
+  display: flex;
+  flex-direction: 'horizontal';
+
+  .react-json-view {
+    flex-basis: 50%;
+  }
+}

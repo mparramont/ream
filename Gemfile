@@ -14,13 +14,18 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem "administrate"
 gem 'mutations'
-gem 'pry-rails', :group => :development
+gem 'dotenv'
+gem 'aws-sdk'
+gem 'awesome_print'
 gem "font-awesome-rails"
 gem "ibm_watson"
 gem 'geocoder', '~> 1.5', '>= 1.5.1'
 
+gem 'webpacker'
+gem 'react-rails'
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug' # debugger
+  gem 'rspec-rails', '~> 3.8'
 end
 
 group :development do

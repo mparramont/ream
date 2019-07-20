@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :items, only: :create
+  resources :items
 
   root to: 'pages#index'
   get 'pages/index'
@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     resources :users
     resources :items
 
-    root to: "users#index"
+    root to: 'users#index'
   end
   devise_for :users
   resources :users
