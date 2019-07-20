@@ -11,9 +11,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem "administrate"
 gem 'mutations'
-gem 'pry-rails', :group => :development
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-rails'
+  gem 'rspec-rails', '~> 3.8'
 end
 group :development do
   gem 'web-console', '>= 3.3.0'
