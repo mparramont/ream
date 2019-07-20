@@ -13,6 +13,7 @@ gem "administrate"
 gem 'mutations'
 gem 'pry-rails', :group => :development
 gem "font-awesome-rails"
+gem "ibm_watson"
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
