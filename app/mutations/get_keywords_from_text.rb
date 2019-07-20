@@ -13,13 +13,12 @@ class GetKeywordsFromText < Mutations::Command
 
   private
 
-  def response
-    @response ||=
-      ibm_watson_client.analyze(text: text, features: { keywords: {} })
+  def result
+    response.result
   end
 
-  def result
-    @result ||= response.result
+  def response
+    ibm_watson_client.analyze(text: text, features: { keywords: {} })
   end
 
   def ibm_watson_client
