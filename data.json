@@ -1,24 +1,23 @@
 {
   "data": {
-      "name": "Test listing",
-      "images": [
-          {
-              "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24ee.jpg"
-          },
-          {
-              "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24ef.jpg"
-          },
-          {
-              "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24f0.jpg"
-          },
-          {
-              "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24f1.jpg"
-          },
-          {
-              "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-000006687d9c.jpg"
-          }
-      ],
-      "description": "The house designs of Stanford White embodied the ultimate achievements of The Gilded Age and created an 'American Renaissance' in architecture and art. And just like Stanford White, who not only designed a mansion for his clients, but also traveled the world to collect the furnishings they should contain, this owner also traveled the world to collect the finest architectural and decoration ideas, as well as the art and furnishings, to combine the very best of the classical tradition with every modern technological convenience. PERFECT LOCATION Positioned a few houses off Fifth Avenue and Central Park on an exceptional residential, tree-lined block, this mansion is 40 feet wide, 90 feet deep, and features four windows across the front and rear facades providing remarkable light at all times. There is no other renovated 40 foot wide mansion available right now between Fifth and Madison Avenues. SIZE With six levels, it encompasses over 20,000 interior square feet including the 3400sf basement with windows in the front and rear, and approximately 2,650 exterior feet on the roof terrace. FORMAL ENTRY 14-foot ceilings in the entry hall open to a rotunda with 28.5-foot ceilings to the third floor. The great room in the rear of this level spans 40 feet with French doors opening to Juliette balconies and floor-to-ceiling windows. A hidden door off the main hallway opens to the top of an extraordinary double-height library and office which measures 24 feet in height. THIRD LEVEL The formal dining room also extends 40 feet and easily accommodates 40 guests or more at a sit-down dinner. The massive 40-foot-wide kitchen in the front has four windows across and almost every cooking appliance known to a chef. FOURTH LEVEL Two 40-foot-wide bedrooms could be converted to four or more bedrooms. FIFTH LEVEL A massive master bedroom suite with an equally large sitting room and two full baths. Two large dressing rooms one of which is wired as a panic room. Separate guest suite. GARDEN LEVEL Additional entrance from the street for the lower half of the extraordinary double-height library offers private access to the office. This level includes the upper balcony section of the movie theater which seats 12 in red velvet chairs. LOWER LEVEL Saline swimming pool with two saunas and a full bath. The lower entrance to the split-level movie theater is in the rear. ROOF TERRACE Elevator and stair provide access to the terrace which covers the entire roof. TECH HIGHLIGHTS Heated sidewalk for automatic snow removal. Heated Onyx marble floors in the entry hall. Water filtration throughout the house. Exceptional lighting system allows numerous lighting combinations. Security system with cameras.",
-      "address": "Calle de Maria de Guzman 33, 28003 Madrid"
+    "name": "Test listing",
+    "images": [{
+        "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24ee.jpg"
+      },
+      {
+        "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24ef.jpg"
+      },
+      {
+        "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24f0.jpg"
+      },
+      {
+        "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-0000065f24f1.jpg"
+      },
+      {
+        "url": "https://feedmedia.egorealestate.com/Zfeed/Wnone/S5/C6603/P12112640/Tphoto/ID00d3b800-0000-0500-0000-000006687d9c.jpg"
+      }
+    ],
+    "description": "The house designs of Stanford White embodied the ultimate achievements of The Gilded Age and created an 'American Renaissance' in architecture and art. And just like Stanford White, who not only designed a mansion for his clients, but also traveled the world to collect the furnishings they should contain, this owner also traveled the world to collect the finest architectural and decoration ideas, as well as the art and furnishings, to combine the very best of the classical tradition with every modern technological convenience. PERFECT LOCATION Positioned a few houses off Fifth Avenue and Central Park on an exceptional residential, tree-lined block, this mansion is 40 feet wide, 90 feet deep, and features four windows across the front and rear facades providing remarkable light at all times. There is no other renovated 40 foot wide mansion available right now between Fifth and Madison Avenues. SIZE With six levels, it encompasses over 20,000 interior square feet including the 3400sf basement with windows in the front and rear, and approximately 2,650 exterior feet on the roof terrace. FORMAL ENTRY 14-foot ceilings in the entry hall open to a rotunda with 28.5-foot ceilings to the third floor. The great room in the rear of this level spans 40 feet with French doors opening to Juliette balconies and floor-to-ceiling windows. A hidden door off the main hallway opens to the top of an extraordinary double-height library and office which measures 24 feet in height. THIRD LEVEL The formal dining room also extends 40 feet and easily accommodates 40 guests or more at a sit-down dinner. The massive 40-foot-wide kitchen in the front has four windows across and almost every cooking appliance known to a chef. FOURTH LEVEL Two 40-foot-wide bedrooms could be converted to four or more bedrooms. FIFTH LEVEL A massive master bedroom suite with an equally large sitting room and two full baths. Two large dressing rooms one of which is wired as a panic room. Separate guest suite. GARDEN LEVEL Additional entrance from the street for the lower half of the extraordinary double-height library offers private access to the office. This level includes the upper balcony section of the movie theater which seats 12 in red velvet chairs. LOWER LEVEL Saline swimming pool with two saunas and a full bath. The lower entrance to the split-level movie theater is in the rear. ROOF TERRACE Elevator and stair provide access to the terrace which covers the entire roof. TECH HIGHLIGHTS Heated sidewalk for automatic snow removal. Heated Onyx marble floors in the entry hall. Water filtration throughout the house. Exceptional lighting system allows numerous lighting combinations. Security system with cameras.",
+    "address": "Calle de Maria de Guzman 33, 28003 Madrid"
   }
 }
