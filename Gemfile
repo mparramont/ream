@@ -11,8 +11,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem "administrate"
 gem 'mutations'
+gem 'dotenv'
+gem 'aws-sdk'
+gem 'awesome_print'
 group :development, :test do
-  gem 'pry-rails'
+  gem 'pry-byebug' # debugger
   gem 'rspec-rails', '~> 3.8'
 end
 group :development do
