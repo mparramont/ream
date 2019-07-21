@@ -25,3 +25,37 @@
     flex-basis: 50%;
   }
 }
+
+.chart-container {
+  position: relative;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-container > div {
+  flex-basis: 50%;
+}
+
+.chart-list-container {
+  flex-basis: 50%
+}
+
+.chart-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chart-list-header {
+  font-size: 26px;
+}
+
+.chart-list-item {
+  font-size: 22px;
+}

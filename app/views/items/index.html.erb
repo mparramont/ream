@@ -2,6 +2,28 @@
 
 <h1>Items</h1>
 
+<div class='chart-container'>
+  <%=
+    react_component(
+      "ItemsChart",
+      {
+        chartData: @chart_data
+      }
+    )
+  %>
+  <div class='chart-list-container'>
+    <p class='chart-list-header'>Augmentations applied to:</p>
+    <ul class='chart-list'>
+      <li class='chart-list-item'>Description</li>
+      <li class='chart-list-item'>Images</li>
+      <li class='chart-list-item'>Address</li>
+    </ul>
+  </div>
+</div>
+
+
+<br>
+
 <% @items.each do |item| %>
   <%=
     react_component(
@@ -9,7 +31,9 @@
       {
         inputData: item.input_data,
         outputData: item.output_data
-      }
+      },
+      class: 'items-chart-container'
     )
   %>
 <% end %>
+
