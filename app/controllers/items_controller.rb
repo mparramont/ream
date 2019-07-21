@@ -1,10 +1,12 @@
 class ItemsController < ApplicationController
   def index
     @items = Item.all
-    @chart_data = [
-      number_of_keys(@items.first.input_data).size,
-      number_of_keys(@items.first.output_data).size
-    ]
+    if @items.present?
+      @chart_data = [
+        number_of_keys(@items.first.input_data).size,
+        number_of_keys(@items.first.output_data).size
+      ]
+    end
   end
 
   def create
